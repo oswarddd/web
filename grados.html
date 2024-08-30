@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<title>Galeria</title> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="esti.css"/>
+    <link rel="stylesheet" href="es.css"/>
+    <header>
+            <div class="container-hero">
+                <div class="container hero">
+                    <div class="customer-support">
+                        <i class="fa-solid fa-headset"></i>
+                        <div class="content-customer-support">
+                            <span class="text"></span>
+                            <span class="number"></span>
+                        </div>
+                    </div>
+
+                    <div class="container-logo">
+                        <i class="fa-solid fa-graduation-cap"></i>
+            <h1 class="logo"><a href="/">complejo educativo Profe. Ivan alexander burgos fuentes</a></h1>
+                    </div>
+
+                    <div class="container-user">
+                        <i class="fa-solid fa-user"></i>
+                        <i class="fa-regular fa-file-lines"></i></i>
+                        <div class="content-shopping-cart">
+                          <font size="2px"><a href="pagina 1.html"> <span class="text">inscribirse</span></a></font>
+                            <span class="number"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-navbar">
+                <nav class="navbar container">
+                    <i class="fa-solid fa-bars"></i>
+                    <ul class="menu">
+                            <li><a href="index.html">Inicio</a></li>
+                     <li><a href="historia.html">historia</a></li>
+                     <li><a href="informacion.html">Informacion institucional</a></li>
+                            <li><a href="oferta.html">Oferta Academica</a></li>
+                    
+                    </ul>     
+                </nav>
+                <font size="5px"><p id="p1"><center> <img src="img/i1.png " alt="descripcion de la imagen" id="f1" width="500xp" height="400x"></center> </font>
+            </div>
+        </header>
+</head>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #7fa6fc;
+        }
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .gallery-item:hover .caption {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="img/m1.jpg" alt="Descripción de la imagen 1">
+            <div class="caption">Puntos Artisticos</div>
+        </div>
+        <div class="gallery-item">
+            <img src="img/m2.jpg" alt="Descripción de la imagen 2">
+            <div class="caption">Actos civicos</div>
+        </div>
+        <div class="gallery-item">
+            <img src="img/m3.jpg" alt="Descripción de la imagen 3">
+            <div class="caption">Dias festivos</div>
+        </div>
+         <div class="gallery-item">
+            <img src="img/m4.jpg" alt="Descripción de la imagen 3">
+            <div class="caption">presentaciones</div>
+        </div>
+        <div class="gallery-item">
+            <img src="img/m5.jpg" alt="Descripción de la imagen 3">
+            <div class="caption">exelencia</div>
+        </div>
+        <div class="gallery-item">
+            <img src="img/m6.jpg" alt="Descripción de la imagen 3">
+            <div class="caption">exelencia</div>
+        </div>
+        <div class="gallery-item">
+            <img src="img/m7.jpg" alt="Descripción de la imagen 3">
+            <div class="caption">reconocimientos</div>
+        </div>
+        <div class="gallery-item">
+            <img src="img/m8.jpg" alt="Descripción de la imagen 3">
+            <div class="caption">nuestro bachillerato</div>
+        </div>
+        <div class="gallery-item">
+            <img src="img/m9.jpg" alt="Descripción de la imagen 3">
+            <div class="caption">bailes</div>
+        </div>
+        <div class="gallery-item">
+            <img src="img/m10.jpg" alt="Descripción de la imagen 3">
+            <div class="caption">dia festivo</div>
+        </div>
+        <div class="gallery-item">
+            <img src="img/m11.jpg" alt="Descripción de la imagen 3">
+            <div class="caption">dia festivo</div>
+        </div>
+        <div class="gallery-item">
+            <img src="img/m12.jpg" alt="Descripción de la imagen 3">
+            <div class="caption">intramuros</div>
+        </div>
+        <div class="gallery-item">
+            <img src="img/m13.jpg" alt="Descripción de la imagen 3">
+            <div class="caption">eventos</div>
+ </div>
+<div class="gallery-item">
+            <img src="img/m14.jpg" alt="Descripción de la imagen 3">
+            <div class="caption">intramuros</div>
+        </div>
+        <div class="gallery-item">
+            <img src="img/m15.jpg" alt="Descripción de la imagen 3">
+            <div class="caption">eventos</div>
+        </div>
+</body>
+</html>
